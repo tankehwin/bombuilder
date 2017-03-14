@@ -1,0 +1,3 @@
+- created initial tables, created shells for ItemModel, ChainManager, FittingModel classes
+- copied over some files from dynaflo project as base and examples
+- building logic via table structure, choosing to do persistent chain objects stored in database, unique to individual users

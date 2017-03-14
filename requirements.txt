@@ -1,0 +1,8 @@
+chain flow
+exportable in excel
+choose item a, choose item b, system automatically inserts the correct fitting between those 2 items
+chain flow size is variable
+variables for fitting: size, thread type
+each item has input/output
+use http POST
+each item can possibly have more than 1 output, so implement a tree structure rather than linear structure

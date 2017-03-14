@@ -1,0 +1,73 @@
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+
+<style type="text/css">
+table.gridtable {
+	font-family: calibri,arial,sans-serif;
+	font-size:15px;
+	color:#000000;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	
+	/* stops selection of text */
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          not supported by any browser */
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #666666;	
+}
+
+
+table.cleartable {
+	font-family: calibri,arial,sans-serif;
+	font-size:15px;
+	color:#000000;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+
+table.cleartable th {
+	border-width: 1px;
+	padding: 5px;
+	background-color: #dedede;
+}
+table.cleartable td {
+	border-width: 1px;
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+input.partNumber {
+	width: 160px;
+}
+
+div.criteria {
+    overflow: hidden;
+}
+
+
+.highlight { 
+	background-color: pink; 
+}
+
+.sellDefault { 
+	background-color: #ffff99;
+}
+
+</style>
