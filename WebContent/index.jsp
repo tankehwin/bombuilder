@@ -11,7 +11,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Dynaflo</title>
 <header>
-DYNAFLO PARTS SEARCH SYSTEM
+DYNAFLO BOM BUILDER SYSTEM
 </header>
 </head>
 <body>
@@ -20,22 +20,26 @@ DYNAFLO PARTS SEARCH SYSTEM
 	session.setAttribute("userLogin", null);
 	String username = request.getParameter("username");	
 	String error = "";
+	
+	ChainManager chman = new ChainManager();
+	chman.regenerateChain(1, conn);
+	
 	if(username != null) {
-		String password = request.getParameter("password");
-		LoginModel userLogin = LoginManager.login(username, password, conn);
-		if(userLogin != null) {
-			session.setAttribute("userLogin", userLogin);
-			// set auto-logout - function accepts parameter in seconds
-			int minutes = 480;
-			session.setMaxInactiveInterval(minutes*60); 
-			String redirectURL = "items_query.jsp";
-		    response.sendRedirect(redirectURL);
-		    return;
-		}
-		else {
-			error = "Username or password is invalid.";
-			System.out.println(error);			
-		}
+// 		String password = request.getParameter("password");
+// 		LoginModel userLogin = LoginManager.login(username, password, conn);
+// 		if(userLogin != null) {
+// 			session.setAttribute("userLogin", userLogin);
+// 			// set auto-logout - function accepts parameter in seconds
+// 			int minutes = 480;
+// 			session.setMaxInactiveInterval(minutes*60); 
+// 			String redirectURL = "items_query.jsp";
+// 		    response.sendRedirect(redirectURL);
+// 		    return;
+// 		}
+// 		else {
+// 			error = "Username or password is invalid.";
+// 			System.out.println(error);			
+// 		}
 	}
 	else 
 %>

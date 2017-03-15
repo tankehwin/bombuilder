@@ -1,5 +1,5 @@
 <%@ page import="utils.*"%>
-<%@ page import="data.*"%>
+<%@ page import="logic.*"%>
 <%@ page import="model.*"%>
 <%@ page import="java.sql.*"%>
 <%@ page import="java.io.*"%>

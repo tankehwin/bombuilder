@@ -1,3 +1,9 @@
 - created initial tables, created shells for ItemModel, ChainManager, FittingModel classes
 - copied over some files from dynaflo project as base and examples
 - building logic via table structure, choosing to do persistent chain objects stored in database, unique to individual users
+- finished basic structure for all Model classes
+- some ideas on how to regenerate the working chain from database filtered by login, using recursive function
+- recursive function completed, redefined and built model classes (ChainModel, ConnectorItemLinkModel, ConnectorMatchModel, ConnectorModel, ItemModel)
+- populated ChainManager and created ChainStructure
+- realigned web assets to correct location
+- created test function to see how ChainManager will regenerate chains and display them
