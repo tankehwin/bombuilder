@@ -1,18 +1,16 @@
 package model;
 
-public class ConnectorItemLinkModel {
+public class NodeFittingLinkModel {
 
 	private Integer itemsId;
 	private Integer id;
-	private Integer direction;
 	private Integer connectorsId;
 	
 	public static final String COLNAME_ID = "id";
-	public static final String COLNAME_DIRECTION = "direction";
-	public static final String COLNAME_ITEMS_ID = "items_id";
-	public static final String COLNAME_CONNECTORS_ID = "connectors_id";
+	public static final String COLNAME_NODE_ID = "node_id";
+	public static final String COLNAME_FITTING_ID = "fitting_id";
 	
-	public static final String TABLENAME = "connectors_items_link";
+	public static final String TABLENAME = "node_fitting_link";
 
 	public Integer getItemsId() {
 		return itemsId;
@@ -30,14 +28,6 @@ public class ConnectorItemLinkModel {
 		this.id = id;
 	}
 
-	public Integer getDirection() {
-		return direction;
-	}
-
-	public void setDirection(Integer direction) {
-		this.direction = direction;
-	}
-
 	public Integer getConnectorsId() {
 		return connectorsId;
 	}
@@ -45,6 +35,8 @@ public class ConnectorItemLinkModel {
 	public void setConnectorsId(Integer connectorsId) {
 		this.connectorsId = connectorsId;
 	}
+
+	
 	
 	
 }

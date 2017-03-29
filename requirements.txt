@@ -1,8 +1,7 @@
-chain flow
+choose item, immediately get list of items associated with chosen item
+each item has category and part number and list of items associated with it
+display all chosen items in a list
+list of associated items is viewable when clicking on any of the chosen items
 exportable in excel
-choose item a, choose item b, system automatically inserts the correct fitting between those 2 items
-chain flow size is variable
-variables for fitting: size, thread type
-each item has input/output
+importable from excel
 use http POST
-each item can possibly have more than 1 output, so implement a tree structure rather than linear structure

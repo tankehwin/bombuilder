@@ -7,3 +7,5 @@
 - populated ChainManager and created ChainStructure
 - realigned web assets to correct location
 - created test function to see how ChainManager will regenerate chains and display them
+- ALL PROGRESS NEGATED, DESIGN HAS CHANGED
+- rebuilt ChainManager and changed design
