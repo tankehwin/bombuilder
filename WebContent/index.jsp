@@ -22,7 +22,6 @@ DYNAFLO BOM BUILDER SYSTEM
 	String error = "";
 	
 	ChainManager chman = new ChainManager();
-	chman.regenerateChain(1, conn);
 	
 	if(username != null) {
 // 		String password = request.getParameter("password");

@@ -1,6 +1,7 @@
 CREATE TABLE items_master ( -- this table lists all possible parts, both fittings and nodes
   id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   part_number VARCHAR(200) NOT NULL,
+  category VARCHAR(100) NULL,
   description VARCHAR(500) NULL,
   item_class VARCHAR(30) NULL -- fitting,node
 );

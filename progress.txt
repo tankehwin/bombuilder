@@ -9,3 +9,7 @@
 - created test function to see how ChainManager will regenerate chains and display them
 - ALL PROGRESS NEGATED, DESIGN HAS CHANGED
 - rebuilt ChainManager and changed design
+- added category field to items_master table
+- added LoginModel, LoginManager code from dynaflo pricebook project
+- buffed up ChainManager logic
+- renamed item_query.jsp to builder.jsp

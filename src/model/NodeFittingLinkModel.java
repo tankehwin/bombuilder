@@ -2,9 +2,9 @@ package model;
 
 public class NodeFittingLinkModel {
 
-	private Integer itemsId;
+	private Integer nodeId;
 	private Integer id;
-	private Integer connectorsId;
+	private Integer fittingId;
 	
 	public static final String COLNAME_ID = "id";
 	public static final String COLNAME_NODE_ID = "node_id";
@@ -12,12 +12,12 @@ public class NodeFittingLinkModel {
 	
 	public static final String TABLENAME = "node_fitting_link";
 
-	public Integer getItemsId() {
-		return itemsId;
+	public Integer getNodeId() {
+		return nodeId;
 	}
 
-	public void setItemsId(Integer itemsId) {
-		this.itemsId = itemsId;
+	public void setNodeId(Integer nodeId) {
+		this.nodeId = nodeId;
 	}
 
 	public Integer getId() {
@@ -28,15 +28,12 @@ public class NodeFittingLinkModel {
 		this.id = id;
 	}
 
-	public Integer getConnectorsId() {
-		return connectorsId;
+	public Integer getFittingId() {
+		return fittingId;
 	}
 
-	public void setConnectorsId(Integer connectorsId) {
-		this.connectorsId = connectorsId;
+	public void setFittingId(Integer fittingId) {
+		this.fittingId = fittingId;
 	}
 
-	
-	
-	
 }
