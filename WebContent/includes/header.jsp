@@ -7,9 +7,9 @@
 <script src="jquery/js/jquery-1.10.2.js"></script>
 <script src="jquery/js/jquery-ui-1.10.4.custom.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Dynaflo</title>
+<title>BOM Builder</title>
 <header>
-DYNAFLO PARTS SEARCH SYSTEM
+DYNAFLO BOM BUILDER SYSTEM
 </header>  
 <!-- the line below is the workaround to the problem above -->
 <%@include file="../css/style.css" %> 

@@ -13,3 +13,4 @@
 - added LoginModel, LoginManager code from dynaflo pricebook project
 - buffed up ChainManager logic
 - renamed item_query.jsp to builder.jsp
+- added file_upload.jsp

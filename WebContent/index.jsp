@@ -24,21 +24,21 @@ DYNAFLO BOM BUILDER SYSTEM
 	ChainManager chman = new ChainManager();
 	
 	if(username != null) {
-// 		String password = request.getParameter("password");
-// 		LoginModel userLogin = LoginManager.login(username, password, conn);
-// 		if(userLogin != null) {
-// 			session.setAttribute("userLogin", userLogin);
-// 			// set auto-logout - function accepts parameter in seconds
-// 			int minutes = 480;
-// 			session.setMaxInactiveInterval(minutes*60); 
-// 			String redirectURL = "items_query.jsp";
-// 		    response.sendRedirect(redirectURL);
-// 		    return;
-// 		}
-// 		else {
-// 			error = "Username or password is invalid.";
-// 			System.out.println(error);			
-// 		}
+		String password = request.getParameter("password");
+		LoginModel userLogin = LoginManager.login(username, password, conn);
+		if(userLogin != null) {
+			session.setAttribute("userLogin", userLogin);
+			// set auto-logout - function accepts parameter in seconds
+			int minutes = 480;
+			session.setMaxInactiveInterval(minutes*60); 
+			String redirectURL = "builder.jsp";
+		    response.sendRedirect(redirectURL);
+		    return;
+		}
+		else {
+			error = "Username or password is invalid.";
+			System.out.println(error);			
+		}
 	}
 	else 
 %>
